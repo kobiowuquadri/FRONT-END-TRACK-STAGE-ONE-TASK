@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    border: 50px groove blueviolet;
+    font-family: cursive;
+    background-color: rgb(155, 81, 224);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    background-color: blueviolet;
+    padding: 30px 50px;
+    border-radius: 10px;
+    
+}
+
+[data-testid="slackUserName"]{
+    color: rgba(0, 0, 0, 0.774);
+}
+
+button{
+    background-color: rgb(86, 10, 158);
+    border: none;
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+[data-testid="githubURL"]{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+[data-testid="myTrack"]{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(45, 5, 82);
+}
+
+[data-testid="currentDayOfTheWeek"], [data-testid="currentUTCTime"]{
+    color: white;
+    letter-spacing: 2px;
+}
